@@ -1,0 +1,45 @@
+
+.text {
+	font-family: "Helvetica Neue Cyr";
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.text_standart {
+	font-size: 18px;
+}
+
+.text_middle {
+	font-size: 20px;	
+	text-transform: uppercase;
+}
+
+.text_max {
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+@media (max-width: 1129px ) {
+	.text_standart {
+		font-size: 14px;
+	}	
+}
+
+@media ( max-width: 449px ) {
+	.text {
+		font-size: 12px;
+	}
+	
+	.text_standart {
+		font-size: 12px;
+	}
+
+	.text_middle {
+		font-size: 12px;	
+	}
+
+	.text_max {
+		font-size: 14px;
+	}
+		
+}

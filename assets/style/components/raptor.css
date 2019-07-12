@@ -1,0 +1,60 @@
+
+.raptor {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 13%;
+	text-align: center;
+}
+
+.hr {
+	width: 100%;
+	height: 2px;
+	background-color: #bfc3c6;
+	background-image: linear-gradient(to right, #b2bdc3 0%, #ffffff 52%, #b2bdc3 100%);
+}
+
+.raptor__header {
+	padding-top: 52px;
+	padding-bottom: 64px;
+}
+
+.raptor__services {
+	padding: 24px 16%; 
+}
+
+.raptor__contacts {
+	padding: 85px 12% 52px 12%;
+}
+
+@media (min-height: 900px) {
+	.raptor__services {
+		padding: 15% 16%; 
+	}	
+}
+
+@media (max-width: 1129px ) {
+	.raptor__contacts {
+		padding: 55px 1% 52px 1%;
+	}	
+}
+
+@media ( max-width: 449px ) {
+	.raptor {
+		padding: 0 1%;
+	}
+
+	.raptor__header {
+		padding-top: 42px;
+		padding-bottom: 24px;
+	}
+
+	.raptor__services {
+		padding: 24px 1%; 
+	}
+
+	.raptor__contacts {
+		padding: 35px 1% 22px 1%;
+	}
+	
+}
